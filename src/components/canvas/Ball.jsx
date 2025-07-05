@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Ball = () => {
+const BallCanvas = () => {
   return (
     <div>Ball</div>
   )
 }
 
-export default Ball
+export default BallCanvas

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Earth = () => {
+const EarthCanvas = () => {
   return (
     <div>Earth</div>
   )
 }
 
-export default Earth
+export default EarthCanvas

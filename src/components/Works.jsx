@@ -74,7 +74,7 @@ const Works = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="py-10"
+        className="py-20"
       >
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={styles.sectionHeadText}>Projects</h2>

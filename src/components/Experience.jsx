@@ -35,7 +35,7 @@ const Experience = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="py-10"
+        className="pt-40"
       >
         <p className={styles.sectionSubText}>What I Have Done So Far</p>
         <h2 className={styles.sectionHeadText}>Work Experience</h2>

@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import wordpress from "./tech/wordpress.png";
+import postgresql from "./tech/postgresql.png";
+import circleci from "./tech/circleci.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -52,6 +55,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  postgresql,
+  wordpress,
+  circleci,
   meta,
   shopify,
   starbucks,

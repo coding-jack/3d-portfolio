@@ -19,9 +19,12 @@ const Tech = () => {
         <h2 className={styles.sectionHeadText}>Technologies</h2>
       </motion.div>
       <div className="flex flex-row flex-wrap justify-center gap-10">
-        {technologies.map((technology, index) => (
-          <div className="w-28 h-28" key={`technology-${index}`}>
-            <BallCanvas icon={technology.icon}/>
+        {technologies.map((technology) => (
+          <div key={`technology-${technology.name}`}>
+            <div className="w-28 h-28">
+              <BallCanvas icon={technology.icon}/>
+            </div>
+            <p className="text-white text-center">{technology.name}</p>
           </div>
         ))}
       </div>

@@ -11,7 +11,6 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
@@ -23,6 +22,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  wordpress,
+  postgresql,
+  circleci,
 } from "../assets";
 
 export const navLinks = [
@@ -61,40 +63,36 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "WordPress",
+    icon: wordpress,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "PostgreSQL",
+    icon: postgresql,
   },
   {
     name: "Three JS",
@@ -111,6 +109,18 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "CircleCI",
+    icon: circleci,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
   },
 ];
 

@@ -171,7 +171,7 @@ const experiences = [
       "Developing and maintaining WordPress websites of various sizes and complexities.",
       "Collaborating with cross-functional teams including designers and product owners.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Adhearing to strict coding standards and best practices.",
+      "Adhering to strict coding standards and best practices.",
     ],
   },
   {

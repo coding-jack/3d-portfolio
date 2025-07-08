@@ -42,18 +42,19 @@ const About = () => {
         viewport={{ once: true }}
         className="py-10"
       >
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText}>What I do</p>
+        <h2 className={styles.sectionHeadText}>Introduction</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary test-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a passionate developer with a strong background in 3D visuals,
-        user interfaces, and full stack web applications.  I've been developing
-        for 9 years and I've worked with a variety of technologies including
-        React, Node.js, and Three.js. I'm always looking for new challenges
-        and opportunities to learn and grow as a developer.
+        I'm a passionate, self-taught developer with a strong background in
+        user interfaces and full stack web applications.  My love for coding has
+        grown deeply throughout the past 9 years I've been doing it professionally.
+        I've worked with a wide variety of technologies, but the bulk of my experience lies in
+        React and WordPress. The best way to learn is to BUILD, so
+        I'm always looking for the next new cool thing to create!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import wordpress_gradient from "./wordpress_gradient.png";
 import github from "./github.png";
+import cursor from "./cursor.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import react_gradient from "./react_gradient.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -16,30 +17,40 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import vue from "./tech/vue.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import wordpress from "./tech/wordpress.png";
 import postgresql from "./tech/postgresql.png";
-import circleci from "./tech/circleci.png";
+import materialui from "./tech/material-ui.png";
+import framerMotion from "./tech/framer-motion.svg";
+import next from "./tech/next.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import graphik from "./company/graphik.png";
+import spire from "./company/spire_digital.png";
+import pn from "./company/pn.png";
+import kin from "./company/kin.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import signatry from "./signatry.png";
+import dmarie from "./d-marie.jpg";
+import latsis from "./latsis.jpg";
+import m5 from "./m5.jpg";
+import jackson_links from "./jackson_links.png";
+import shwarma from "./shwarma.png";
+import shwarma_links from "./shwarma_links.png";
+import prep_network from "./prep_network.png";
+import pn_events from "./pn_events.png";
+import movies_galore from "./movies_galore.png";
+import goofball from "./goofball.png";
+import fathers_day from "./fathers_day.png";
 
 export {
   logo,
   backend,
   creator,
-  mobile,
-  web,
   github,
+  cursor,
   menu,
   close,
   css,
@@ -51,18 +62,31 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
+  vue,
   tailwind,
   typescript,
   threejs,
   postgresql,
   wordpress,
-  circleci,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  materialui,
+  framerMotion,
+  graphik,
+  spire,
+  pn,
+  kin,
+  signatry,
+  dmarie,
+  latsis,
+  m5,
+  react_gradient,
+  wordpress_gradient,
+  next,
+  jackson_links,
+  shwarma,
+  shwarma_links,
+  prep_network,
+  pn_events,
+  movies_galore,
+  goofball,
+  fathers_day,
 };

@@ -1,11 +1,14 @@
 import { BallCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
-import { technologies } from "../constants"
+import { technologies, techCategories } from "../constants"
 import { motion } from "framer-motion"
 import { textVariant } from "../utils/motion"
 import { styles } from "../styles"
+import React, { useState } from "react";
+import Modal from "./Modal";
 
 const Tech = () => {
+  const [modalOpen, setModalOpen] = useState(false);
   return (
     <div className="py-20">
       <motion.div
@@ -28,6 +31,25 @@ const Tech = () => {
           </div>
         ))}
       </div>
+      <motion.div
+        variants={textVariant()}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        className="py-20 text-center"
+      >
+        <button
+          className="bg-tertiary text-white px-4 py-2 rounded-[10px] hover:bg-secondary transition mb-4 border border-secondary"
+          onClick={() => setModalOpen(true)}
+        >
+          More Tech
+        </button>
+        <Modal
+          isOpen={modalOpen}
+          onClose={() => setModalOpen(false)}
+          categories={techCategories}
+        />
+      </motion.div>
     </div>
   )
 }

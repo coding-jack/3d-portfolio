@@ -16,7 +16,14 @@ const ExperienceCard = ({ experience }) => (
       icon={<div className="flex justify-center items-center w-full h-full"><img src={experience.icon} alt={experience.title} className="w-[60%] h-[60%] object-contain"/></div>}
     >
       <div>
-        <h3 className="text-white font-bold text-[24px]">{experience.title}</h3>
+        <h3 className="text-white font-bold text-[24px]">
+          {experience.title.split(',').map((part, idx, arr) => (
+            <React.Fragment key={idx}>
+              {part.trim()}
+              {idx < arr.length - 1 && <br />}
+            </React.Fragment>
+          ))}
+        </h3>
         <p className="text-secondary font-semibold text-[16px]">{experience.company_name}</p>
         <ul className="mt-5 list-disc space-y-2 ml-5">
           {experience.points.map((point, index) => (
@@ -38,7 +45,7 @@ const Experience = () => {
         className="pt-40"
       >
         <p className={styles.sectionSubText}>What I Have Done So Far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience</h2>
+        <h2 className={styles.sectionHeadText}>Relevant Experience</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
@@ -51,4 +58,4 @@ const Experience = () => {
   )
 }
 
-export default SectionWrapper(Experience, "Work")
+export default SectionWrapper(Experience, "experience")

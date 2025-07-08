@@ -1,12 +1,12 @@
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
 import { styles } from "../styles"
-import { github } from "../assets"
+import { github, cursor } from "../assets"
 import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, demo_link }) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
@@ -22,34 +22,49 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           "max-glare": 1,
           transition: 0
         }}
-        className="green-pink-gradient p-[1px] rounded-[20px] sm:w-[360px] w-full"
+        className="green-pink-gradient p-[1px] rounded-[20px] sm:w-[360px] w-full h-full"
       >
-        <div className="bg-tertiary rounded-[20px] min-h-[280px] flex flex-col justify-evenly items-center p-5">
-          <div
-            className="relative w-full h-[230px]"
-            options={{
-              max: 45,
-              scale: 1,
-              speed: 450,
-              glare: true,
-              "max-glare": 1,
-              transition: 0
-            }}
-          >
-            <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl"/>
-            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-              <div
-                onClick={() => window.open(source_code_link, "_blank")}
-                className="black-gradient w-10 h-10 flex justify-center items-center rounded-full cursor-pointer"
-              >
-                <img src={github} alt="github" className="w-1/2 h-1/2 object-contain"/>
-              </div>
+        <div className="bg-tertiary rounded-[20px] min-h-[280px] flex flex-col justify-between items-center p-5 h-full">
+          <div>
+            <div
+              className="relative w-full h-[230px]"
+              options={{
+                max: 45,
+                scale: 1,
+                speed: 450,
+                glare: true,
+                "max-glare": 1,
+                transition: 0
+              }}
+            >
+              <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl"/>
+              {source_code_link && (
+                <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+                  <div
+                    onClick={() => window.open(source_code_link, "_blank")}
+                    className="black-gradient w-10 h-10 flex justify-center items-center rounded-full cursor-pointer"
+                  >
+                  <img src={github} alt="github" className="w-1/2 h-1/2 object-contain"/>
+                </div>
+                </div>
+              )}
+              {demo_link && (
+                <div className={`absolute inset-0 ${source_code_link ? "right-11" : "right-0"} flex justify-end m-3 card-img_hover`}>
+                  <div
+                    onClick={() => window.open(demo_link, "_blank")}
+                    className="black-gradient w-10 h-10 flex justify-center items-center rounded-full cursor-pointer"
+                  >
+                  <img src={cursor} alt="demo" className="w-1/2 h-1/2 object-contain"/>
+                </div>
+                </div>
+              )}
+            </div>
+            <div className="mt-5">
+              <h3 className="text-white text-[24px] font-bold">{name}</h3>
+              <p className="mt-2 text-secondary text-[14px]">{description}</p>
             </div>
           </div>
-          <div className="mt-5">
-            <h3 className="text-white text-[24px] font-bold">{name}</h3>
-            <p className="mt-2 text-secondary text-[14px]">{description}</p>
-          </div>
+
           <div className="mt-4 flex flex-wrap gap-2 w-full items-start">
             {tags.map((tag, index) => (
               <p
@@ -103,4 +118,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "work")
+export default SectionWrapper(Works, "portfolio")

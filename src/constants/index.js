@@ -74,7 +74,7 @@ const techCategories = [
   ["Database", "TypeORM", "PostgreSQL", "MySQL", "Appwrite", "Laravel Valet", "Firebase", "Sequel Pro", "SQLite", "phpMyAdmin", "MAMP Pro", "Airtable"],
   ["CI/CD", "CircleCI", "GitHub Actions", "Vercel", "Netlify", "Hostinger"],
   ["WordPress", "Sage 8/9", "Bedrock", "Trellis", "ACF Pro", "Gutenberg", "AWS"],
-  ["CLI", "Git", "Bash", "NPM", "Yarn", "Composer", "WP-CLI", "Brew", "Bower", "Gulp"],
+  ["CLI", "Git", "Zsh", "Bash", "NPM", "Yarn", "Composer", "WP-CLI", "Brew", "Bower", "Gulp"],
   ["Tools: Coding", "Windsurf", "Cascade", "Github Copilot", "VS Code", "Transmit", "iTerm"],
   ["Tools: Design", "Figma", "Canva", "Photoshop", "Illustrator", "Sketch"],
 ];
@@ -93,8 +93,8 @@ const technologies = [
     icon: wordpress,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Three JS",
+    icon: threejs,
   },
   {
     name: "Next JS",
@@ -113,8 +113,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Material UI",
+    icon: materialui,
   },
   {
     name: "Framer Motion",
@@ -127,10 +131,6 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
-  },
-  {
-    name: "Material UI",
-    icon: materialui,
   },
 ];
 

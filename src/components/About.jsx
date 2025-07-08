@@ -53,7 +53,7 @@ const About = () => {
         user interfaces and full stack web applications.  My love for coding has
         grown deeply throughout the past 9 years I've been doing it professionally.
         I've worked with a wide variety of technologies, but the bulk of my experience lies in
-        React and WordPress. The best way to learn is to BUILD, so
+        React and WordPress. The best way to learn is to jump in and BUILD, so
         I'm always looking for the next new cool thing to create!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">

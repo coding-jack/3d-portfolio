@@ -44,7 +44,7 @@ const Experience = () => {
         viewport={{ once: true }}
         className="pt-40"
       >
-        <p className={styles.sectionSubText}>What I Have Done So Far</p>
+        <p className={styles.sectionSubText}>Where I have worked Professionally</p>
         <h2 className={styles.sectionHeadText}>Relevant Experience</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">

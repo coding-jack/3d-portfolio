@@ -70,7 +70,7 @@ const services = [
 
 const techCategories = [
   ["Testing", "Jest", "React Testing Library", "Cypress", "ESLint", "Playwright"],
-  ["API", "Apollo", "GraphQL", "Redux", "Axios"],
+  ["API", "Apollo", "Postman", "GraphQL", "Redux", "Axios"],
   ["Database", "TypeORM", "PostgreSQL", "MySQL", "Appwrite", "Laravel Valet", "Firebase", "Sequel Pro", "SQLite", "phpMyAdmin", "MAMP Pro", "Airtable"],
   ["CI/CD", "CircleCI", "GitHub Actions", "Vercel", "Netlify", "Hostinger"],
   ["WordPress", "Sage 8/9", "Bedrock", "Trellis", "ACF Pro", "Gutenberg", "AWS"],

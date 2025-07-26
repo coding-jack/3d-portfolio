@@ -76,7 +76,7 @@ const techCategories = [
   ["WordPress", "Sage 8/9", "Bedrock", "Trellis", "ACF Pro", "Gutenberg", "AWS", "Composer"],
   ["CLI", "Git", "Zsh", "Bash", "NPM", "Yarn", "Composer", "WP-CLI", "Brew", "Bower", "Gulp"],
   ["Tools: Coding", "Windsurf", "Cascade", "Github Copilot", "VS Code", "Transmit", "iTerm"],
-  ["Tools: Design", "Figma", "Canva", "Photoshop", "Illustrator", "Sketch"],
+  ["Tools: Design", "Figma", "Canva", "Photoshop", "Illustrator", "Sketch", "Shadcn"],
 ];
 
 const technologies = [

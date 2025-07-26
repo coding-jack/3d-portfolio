@@ -71,12 +71,12 @@ const services = [
 const techCategories = [
   ["Testing", "Jest", "React Testing Library", "Cypress", "ESLint", "Playwright"],
   ["API", "Apollo", "Postman", "GraphQL", "Redux", "Axios"],
-  ["Database", "TypeORM", "PostgreSQL", "MySQL", "Appwrite", "TablePlus", "Laravel Valet", "Firebase", "Sequel Pro", "SQLite", "phpMyAdmin", "MAMP Pro", "Airtable"],
-  ["CI/CD", "CircleCI", "GitHub Actions", "Vercel", "Netlify", "Hostinger"],
-  ["WordPress", "Sage 8/9", "Bedrock", "Trellis", "ACF Pro", "Gutenberg", "AWS", "Composer"],
+  ["Database", "TypeORM", "PostgreSQL", "MySQL", "GraphQL", "Appwrite", "TablePlus", "Laravel Valet", "Firebase", "Sequel Pro", "SQLite", "phpMyAdmin", "MAMP Pro", "Airtable"],
+  ["CI/CD", "CircleCI", "GitHub Actions", "Vercel", "Netlify", "Hostinger", "AWS", "GitLab"],
+  ["CMS", "Sanity", "WordPress", "Craft CMS", "Sage 8/9", "Bedrock", "Trellis", "ACF Pro", "Gutenberg", "AWS", "Composer"],
   ["CLI", "Git", "Zsh", "Bash", "NPM", "Yarn", "Composer", "WP-CLI", "Brew", "Bower", "Gulp"],
-  ["Tools: Coding", "Windsurf", "Cascade", "Github Copilot", "VS Code", "Transmit", "iTerm"],
-  ["Tools: Design", "Figma", "Canva", "Photoshop", "Illustrator", "Sketch", "Shadcn"],
+  ["Tools: Coding", "Windsurf", "Cascade", "Github Copilot", "VS Code", "Transmit", "iTerm", "Warp"],
+  ["Tools: Design", "Shadcn", "Figma", "Canva", "Photoshop", "Illustrator", "Sketch"],
 ];
 
 const technologies = [
